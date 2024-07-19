@@ -6,11 +6,6 @@ Welcome to my portfolio website! This repository contains the source code and re
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 This portfolio website serves as a platform to display my work, provide information about my skills and background, and offer a way to get in touch with me. It is designed to be clean, responsive, and easy to navigate.
@@ -31,10 +26,3 @@ This portfolio website serves as a platform to display my work, provide informat
   - Node.js 
 - **Other Tools:**
   - Git
-
-## Setup
-To run this project locally, follow these steps:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/portfolio-website.git
