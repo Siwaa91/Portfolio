@@ -5,6 +5,7 @@ import todolist from "../../assets/to-do-list.png";
 import movie from "../../assets/movie_app.png";
 import currency from "../../assets/currency-converter.png";
 import tic from "../../assets/tic-tac-toe.jpg";
+import tweet from "../../assets/tweet.jpeg";
 
 function Projects() {
   return (
@@ -12,10 +13,10 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={Styles.ProjectsContainer}>
         <ProjectCard
-          src={todolist}
-          link="https://github.com/Siwaa91/To-Do-List"
-          h3="To Do List"
-          p="Created with React.js"
+          src={tweet}
+          link="https://github.com/Siwaa91/Django-Tweet"
+          h3="Tweet App"
+          p="Created with django"
         />
         <ProjectCard
           src={bird}
@@ -24,10 +25,10 @@ function Projects() {
           p="Created with unity engine"
         />
         <ProjectCard
-          src={movie}
-          link="https://github.com/Siwaa91/Movie-App"
-          h3="Movie App"
-          p="Created with React.js, Movie Api"
+          src={todolist}
+          link="https://github.com/Siwaa91/To-Do-List"
+          h3="To Do List"
+          p="Created with React.js"
         />
         <ProjectCard
           src={currency}

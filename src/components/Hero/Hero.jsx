@@ -41,9 +41,10 @@ function Hero() {
           </a>
         </span>
         <p className={Styles.description}>
-          I specialize in creating dynamic websites with React.js and robust
-          Android apps using Java. My focus is on delivering responsive,
-          user-friendly solutions that perform seamlessly across devices.
+          I specialize in creating dynamic full-stack web applications with
+          React.js and Django, and robust Android apps using Java. My focus is
+          on delivering responsive, user-friendly solutions that perform
+          seamlessly across devices.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>

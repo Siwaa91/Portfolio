@@ -20,6 +20,7 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Android Studio" />
         <SkillList src={checkMarkIcon} skill="Git" />
         <SkillList src={checkMarkIcon} skill="Github" />
+        <SkillList src={checkMarkIcon} skill="Django" />
       </div>
     </section>
   );
