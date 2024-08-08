@@ -13,19 +13,18 @@ function Skills() {
       <div className={Styles.skillList}>
         <SkillList src={Icon} skill="Java" />
         <SkillList src={Icon} skill="JavaScript" />
-        <SkillList src={Icon} skill="C/C++" />
         <SkillList src={Icon} skill="Python" />
         <SkillList src={Icon} skill="SQL" />
         <SkillList src={Icon} skill="Php" />
       </div>
       <hr />
       <div className={Styles.skillList}>
-        <SkillList src={Icon} skill="Unity" />
         <SkillList src={Icon} skill="React.js" />
-        <SkillList src={Icon} skill="Android Studio" />
-        <SkillList src={Icon} skill="Git" />
-        <SkillList src={Icon} skill="Github" />
         <SkillList src={Icon} skill="Django" />
+        <SkillList src={Icon} skill="Android Studio" />
+        <SkillList src={Icon} skill="Unity" />
+        <SkillList src={Icon} skill="Git" />
+        <SkillList src={Icon} skill="Web-Development" />
       </div>
     </section>
   );
