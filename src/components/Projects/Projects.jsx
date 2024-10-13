@@ -2,10 +2,10 @@ import Styles from "./ProjectsStyles.module.css";
 import bird from "../../assets/flappy_bird.png";
 import ProjectCard from "../../common/ProjectCard";
 import todolist from "../../assets/to-do-list.png";
-import movie from "../../assets/movie_app.png";
 import currency from "../../assets/currency-converter.png";
 import tic from "../../assets/tic-tac-toe.jpg";
 import tweet from "../../assets/tweet.jpeg";
+import note from "../../assets/note.png";
 
 function Projects() {
   return (
@@ -41,6 +41,12 @@ function Projects() {
           link="https://github.com/Siwaa91/Tic-Tac-Toe"
           h3="Tic Tac Toe"
           p="Created with JavaScript"
+        />
+        <ProjectCard
+          src={note}
+          link="https://github.com/Siwaa91/Notes-App"
+          h3="Notes app"
+          p="Created with react.js, django"
         />
       </div>
     </section>
